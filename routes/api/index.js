@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const commentRoutes = require('./comment-routess');
+const commentRoutes = require('./comment-routes');
 const pizzaRoutes = require('./pizza-routes');
 
 router.use('/comments', commentRoutes);
